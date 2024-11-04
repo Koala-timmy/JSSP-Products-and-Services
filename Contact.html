@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="fontawesome/css/all.css"/>
+        <title>JSSP Products and Services | Contact Page</title>
+    </head>
+    <body>
+        <nav>
+            <img src="Images/Logo.jpg" width="66" height="46"/>
+            <input type="checkbox" id="sidebar-active"/>
+            <label for="sidebar-active" class="open-sidebar">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <label id="overlay" for="sidebar-active"></label>
+            <div class="nav-menu">
+                <a href="Index.html" class="menu-item">Home</a>
+                <a href="About.html" class="menu-item">About</a>
+                <a href="Products.html" class="menu-item">Products</a>
+                <a href="mailto:jsspproducts@gmail.com" class="menu-item">Get a Quote</a>
+                <a href="Contact.html" class="menu-item is-active">Contact Us</a>
+            </div>
+        </nav>
+        <form method="post" action="https://formsubmit.co/jsspproducts@gmail.com">
+            <p><span class="heading">Let's Get in Touch</span></p>
+            <div class="cont-details">
+                <p>+27 69 999 7224</p>
+                <p>jsspproducts@gmail.com</p>
+            </div>
+            <div class="cont-form">
+                <input class="cont-input" type="text" name="Name" id="name" placeholder="Name" required>
+                <input class="cont-input" type="text" name="Surname" id="surname" placeholder="Surname" required>
+                <input class="cont-input" type="email" name="Email" id="email" placeholder="Email" required>
+                <input class="cont-input" type="tel" name="Number" id="cell-number" placeholder="Cell Number">
+                <textarea name="Message" placeholder="Message..."></textarea>
+                <button type="submit" id="submit-btn">Submit</button>
+            </div>
+        </form> 
+        <footer>
+            <div class="box">
+                <img src="Images/Logo.jpg" width="66" height="52"/>
+                <p>JSSP Products and Services</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                    elit. Doloremque exercitationem voluptates
+                </p>
+            </div>
+            <div class="box">
+                <h2>Quick Contact</h2>
+                <p>+27 69 999 7224</p>
+                <p>jsspproducts@gmail.com</p>
+            </div>
+            <div class="box">
+                <h2>Nav Links</h2>
+                <a href="Index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Contact.html">Contact Us</a>
+            </div>
+        </footer>
+    </body>
+</html>
